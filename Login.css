@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:white;
+}
+.Box{
+    width: 370px;
+    text-align: center;
+    background-color: black;
+    margin-left: 10%;
+    padding: 10px;
+    color: white;
+}
+.main{
+    
+    display: flex;
+    justify-content:space-evenly;
+}
+.btn{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    color: red;
+    background-color: rgb(245, 210, 164);
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.email input{
+    width: 225px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 13px;
+}
+.password input{
+    width: 225px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 13px;
+}
+.slider input {
+    width: 35px;
+}
+.login-form {
+    background-color:rgb(52, 50, 50);
+    margin: 30px;
+    padding: 20px 0
+}
+.login-form h1 {
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.forgot-password{
+    color: white;
+
+}
+
